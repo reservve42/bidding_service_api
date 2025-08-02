@@ -31,6 +31,7 @@ The ranking logic (value and deadline) is processed with high performance throug
 - Project suitable for integration with ERPs or government portals
 
 ---
+
 ## 📂 Project Structure
 
 ├── api
@@ -41,6 +42,7 @@ The ranking logic (value and deadline) is processed with high performance throug
 │       └── extconf.rb #build script for extensive 
 └── lib
     └── bid_ranker.rb #wrapper ruby for C++ module
+    
  ---
 
 ## 🛠️ Installation and Execution
