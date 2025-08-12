@@ -41,7 +41,7 @@ The ranking logic (value and deadline) is processed with high performance throug
 - │       ├── bidRanker.cpp #extensive native in C++ (ranking)
 - │       └── extconf.rb #build script for extensive 
 - └── lib
-      └── bid_ranker.rb #wrapper ruby for C++ module
+-      └── bid_ranker.rb #wrapper ruby for C++ module
     
 
 
