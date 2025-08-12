@@ -34,14 +34,14 @@ The ranking logic (value and deadline) is processed with high performance throug
 
 ## 📂 Project Structure
 
-├── api
-│   └── biddingAPI.rb #main API in Ruby (Sinatra)
-├── ext
-│   └── Bid_ranker
-│       ├── bidRanker.cpp #extensive native in C++ (ranking)
-│       └── extconf.rb #build script for extensive 
-└── lib
-    └── bid_ranker.rb #wrapper ruby for C++ module
+#├── api
+#│   └── biddingAPI.rb #main API in Ruby (Sinatra)
+#├── ext
+#│   └── Bid_ranker
+#│       ├── bidRanker.cpp #extensive native in C++ (ranking)
+#│       └── extconf.rb #build script for extensive 
+#└── lib
+#    └── bid_ranker.rb #wrapper ruby for C++ module
     
  ---
 
