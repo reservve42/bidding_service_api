@@ -33,7 +33,7 @@ The ranking logic (value and deadline) is processed with high performance throug
 
 
 ## 📂 Project Structure
-
+---
 ├── api
 │   └── biddingAPI.rb #main API in Ruby (Sinatra)
 ├── ext
@@ -42,7 +42,7 @@ The ranking logic (value and deadline) is processed with high performance throug
 │       └── extconf.rb #build script for extensive 
 └── lib
     └── bid_ranker.rb #wrapper ruby for C++ module
-    
+    ---    
 
 
 ## 🛠️ Installation and Execution
