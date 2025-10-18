@@ -1,5 +1,4 @@
-Hello, guys. I'm Heinrich, a Ruby software engineer. 
-today i developed a Bidding API (bellow) 
+Hi mates. I'm Heanrig, a software engineer. today I developed a Bidding API (bellow) 
 
 # Public Bidding API — Ruby + C++ Integration
 
@@ -16,23 +15,15 @@ The ranking logic (value and deadline) is processed with high performance throug
 
 - **Ruby 3.x**
 - **Sinatra** (web framework)
-- **C++** (native performance extension)
+- **C++** (native performance extension, but you can use C++ 11/14/17/21)
 - **JSON** (communication format)
 - **Make / extconf.rb** (to compile the extension)
 
 ---
 
-## ⚙️ Features
 
-- Submission of proposals for public contracts
-- Listing of proposals by contract
-- Automatic ranking via C++ module
-- Modular structure for future expansion
-- Project suitable for integration with ERPs or government portals
-
-
-
-## 📂 Project Structure
+```
+## 📂 You maybe see this structure in your project. If yes, probably you did the same way like me
 
 - ├── api
 - │   └── biddingAPI.rb #main API in Ruby (Sinatra)
@@ -43,20 +34,20 @@ The ranking logic (value and deadline) is processed with high performance throug
 - └── lib
 -      └── bid_ranker.rb #wrapper ruby for C++ module
     
-
+```
 
 ## 🛠️ Installation and Execution
 
 ### Prerequisites
 
-- Ruby 3.x installed
+- Ruby 3.x installed or use RVM for most current version, I recommend use RVM
 - g++ or clang++
 - Make (Linux/Mac) or MSYS (Windows)
-- Bundler (optional)
+- Bundler 
 
 ### Steps to run locally
 
-```bash
+```zsh
 # 1. Compile the C++ extension
 cd ext/Bid_ranker
 ruby extconf.rb
@@ -71,7 +62,7 @@ curl -X POST http://localhost:4567/bids \
   -H "Content-Type: application/json" \
   -d '{
         "contract_id": "1234",
-        "supplier_id": "empresaXYZ",
+        "supplier_id": "companyXYZ",
         "amount": 45000,
         "deadline": 15
       }'
